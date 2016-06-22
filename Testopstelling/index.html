@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Testopstelling: PHP met MYSQL</title>
+  <link href="http://wout-wynen.github.io//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="http://wout-wynen.github.io//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+  <style type="text/css">
+  
+    footer.page-footer{background-image: url(http://wout-wynen.github.io//images/3D-image.png);}
+  
+  </style>
+</head>
+<body>
+  <ul id="slide-out" class="side-nav">
+    <li><a href="http://wout-wynen.github.io/"><i class="mdi-action-home left"></i>Home<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//Autobiography/"><i class="mdi-action-perm-media left"></i>Autobiography<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//CaseStudy/"><i class="mdi-action-perm-media left"></i>CaseStudy<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//DatabaseUseCase/"><i class="mdi-action-perm-media left"></i>DatabaseApp<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//Questions/"><i class="mdi-action-perm-media left"></i>FAQ frans<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//Huisstijl/"><i class="mdi-action-perm-media left"></i>Huisstijl<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//IT-tapa/"><i class="mdi-action-perm-media left"></i>IT-tapa sessies<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//IT-profile/"><i class="mdi-action-perm-media left"></i>IT-profile<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//Instructionvideo/"><i class="mdi-action-perm-media left"></i>Instructionvideo<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//ReportagePhoto/"><i class="mdi-action-perm-media left"></i>Reportage<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+      <li><a href="http://wout-wynen.github.io//Review/"><i class="mdi-action-perm-media left"></i>Review<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+      <li><a href="http://wout-wynen.github.io//Stageverslagen/"><i class="mdi-action-perm-media left"></i>Stageverslagen<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+      <li><a href="http://wout-wynen.github.io//Testopstelling/"><i class="mdi-action-perm-media left"></i>Testopstelling<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+      <li><a href="http://wout-wynen.github.io//VirussenGame/"><i class="mdi-action-perm-media left"></i>VirusGame<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://wout-wynen.github.io//HugoVerschil/"><i class="mdi-action-perm-media left"></i>Workflows<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+
+
+
+  </ul>
+  <div id="index-banner" class="parallax-container">
+  <a data-activates="slide-out" class="btn-floating button-collapse" style="top: 5px; left: 5px;"><i class="mdi-navigation-menu"></i></a>
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <h1 class="header center teal-text text-lighten-2">GIP site Wout Wynen</h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+        <div class="row center">
+        
+          <a href="https://github.com/wout-wynen"><img src="http://wout-wynen.github.io//images/github2-dreamstale35.png"></a>
+        
+        
+          <a href="https://gitlab.com//wout-wynen/wout-wynenHugoSite/"><img src="http://wout-wynen.github.io//images/Gitlab.png"></a>
+        
+        
+          <a href="https://www.facebook.com/wout.wynen/"><img src="http://wout-wynen.github.io//images/facebook-dreamstale25.png"></a>
+        
+        
+        
+          <a href="https://google.com/+/"><img src="http://wout-wynen.github.io//images/gplus48x48.png"></a>
+        
+        
+
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+    
+      <img src="http://wout-wynen.github.io//images/3D-image.png">
+    
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <div class="section">
+
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel">
+          <h4>Testopstelling: PHP met MYSQL</h4>
+          <p>
+          
+            
+              <a href="http://wout-wynen.github.io//categories/systeembeheer/">Systeembeheer</a>
+            
+          
+          </p>
+          <p>
+
+<h4 id="korte-samenvatting-van-onze-testopstelling-en-testen:49018aa46b4d9d807d3267297f1e1a98">Korte samenvatting van onze testopstelling en testen.</h4>
+
+<p><br>
+Deze opdracht is samen gemaakt met Mario en Greg:
+<br>
+<a href="http://mario-vankerckhoven.github.io/">Mario vanKerckhoven</a>
+<br>
+<a href="http://greg-groenvynck.github.io/">Greg Groenvynck</a>
+<br></p>
+
+<h4 id="php-mario:49018aa46b4d9d807d3267297f1e1a98">PHP: (mario)</h4>
+
+<p>Bij het creëren van de testopstelling hebben we vooral met Linux Xubuntu gewerkt.
+<br>
+Een mogelijk alternatief was de Windows server met IIS, maar hier doken enkele problemen op in verband met het maken van de connectie tussen de database en de webpagina.
+<br>
+Om de webpagina lokaal te kunnen testen op de Xubuntu hebben we gebruik gemaakt van apache2.
+<br>
+Handig hieraan is dat het samen met de Virtuele machine word opgestart en dat je bestanden altijd gehost worden.
+<br>
+De bestanden die gehost worden plaats je in de var/www/html map van het Device “Computer”.
+<br>
+Om in deze map te geraken moet je wel een programma installeren via Sudo apt-get install Nautilus.
+<br>
+Eenmaal je bestander hier gezet kan je ze ook nog steeds aanpassen.<br />
+<img src="../images/Testopstelling1.png" alt="Image of Testopstelling1" />
+
+<br>
+Php is verder een zeer handige programmeertaal aangezien het de mogelijkheid bied de verbinding met mysql op eenvoudige manier te maken.
+<br>
+Echter moet je je ervan bewust zijn dat je de queries goed laat aankomen en dat ze “hackproof” zijn tegen sql injection attacks.</p>
+
+<h4 id="mysql-wout:49018aa46b4d9d807d3267297f1e1a98">MYSQL (Wout)</h4>
+
+<p>Als testopstelling hebben we ook het opensource-managementsysteem voor databases namelijk MYSQL gebruikt.
+<br>
+Omdat we willen testen dat wanneer je een klasnummer ingeeft de gebruikt een leerling terugkrijgt , moeten we met een database werken.
+<br>
+We hebben in MYSQL Workbench een database ‘testopstelling’ met een tabel ‘klasgenoten’ gemaakt met hierin verschillende query&rsquo;s.
+<br>
+Het werken met MYSQL is in het algemeen goed verlopen. We hebben kleine problemen gehad met het installeren van PhpMyAdmin was moeilijk verlopen.
+<br>
+Nadat dit was gelukt hebben we geen enkel probleem meer gehad.
+<br>
+De code in MYSQL zelf was ook niet moeilijk omdat we dit met het vak software ook al veel met SQL bezig geweest zijn.
+<img src="../images/Testopstelling2.png" alt="Image of Testopstelling2" />
+
+<br>
+Je kan zelfs een code genereren zodat je zelf de code niet moet schrijven.
+<br>
+Dit heeft wel een nadeel omdat je wanneer je een fout hebt of een query moet toevoegen, je geen idee hebt hoe dit werkt en dus ook een nieuwe tabel zal moeten maken.</p>
+
+<h4 id="linken-van-php-met-mysql-greg:49018aa46b4d9d807d3267297f1e1a98">Linken van PHP met MYSQL (Greg)</h4>
+
+<p>Php en  mysql kan werken met een mysql database door het gebruik van MySQL extension of een PDO (PHP data objects).
+<br>
+Zowel MySQL en PDO hebben hun voordelen. MySQLi zal alleen werken met SQL databases en PDO kan met 12 verschillende databases werken.
+<br>
+Als je moet switchen tussen verschillende databases is het het best om dus PDO te gebruiken aangezien de verschillende databases die je kan gebruiken.
+<br>
+Met MySQLi moet je de hele code herschrijven wat een voordeel is en ook een nadeel.
+<br>
+Het voordeel is dat je zelf de specificaties kan schrijven het nadeel is dit vraag veel kennis werk en moeite.
+<br>
+Beiden zijn object georiënteerd maar MySQLi bied een API aan.
+<br>
+<img src="../images/Testopstelling3.png" alt="Image of Testopstelling3" />
+
+<br>
+We hebben uiteindelijk ook nog een filmpje gemaakt met ons resultaat.
+<br>
+Het filmpje staat op youtube maar vindt u ook hieronder.
+<br></p>
+
+<p><a href="https://www.youtube.com/watch?v=KEnIh1G3Hg4" title="Testopstelling video"><img src="../images/TestopstellingVideo.png" alt="Testopstellings" />
+</a></p>
+</p>
+          <p>10 May 2016
+            
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
+      
+      </div>
+      <div class="col s6 m10 center">&nbsp</div>
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://wout-wynen.github.io/IT-profile/"><i class="mdi-navigation-arrow-forward"></i></a>
+      
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      
+      <div class="right">Designed by <a class="grey-text text-lighten-4" href="https://github.com/wout-wynen">Wout Wynen</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://wout-wynen.github.io//js/materialize.min.js"></script>
+  <script src="http://wout-wynen.github.io//js/init.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  </body>
+</html>
+

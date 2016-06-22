@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systeembeheer on GIP site Wout Wynen</title>
+    <link>http://wout-wynen.github.io/categories/systeembeheer/</link>
+    <description>Recent content in Systeembeheer on GIP site Wout Wynen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 May 2016 13:51:01 +0200</lastBuildDate>
+    <atom:link href="http://wout-wynen.github.io/categories/systeembeheer/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Testopstelling: PHP met MYSQL</title>
+      <link>http://wout-wynen.github.io/Testopstelling/</link>
+      <pubDate>Tue, 10 May 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Testopstelling/</guid>
+      <description>
+
+&lt;h4 id=&#34;korte-samenvatting-van-onze-testopstelling-en-testen:49018aa46b4d9d807d3267297f1e1a98&#34;&gt;Korte samenvatting van onze testopstelling en testen.&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;
+Deze opdracht is samen gemaakt met Mario en Greg:
+&lt;br&gt;
+&lt;a href=&#34;http://mario-vankerckhoven.github.io/&#34;&gt;Mario vanKerckhoven&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;http://greg-groenvynck.github.io/&#34;&gt;Greg Groenvynck&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;php-mario:49018aa46b4d9d807d3267297f1e1a98&#34;&gt;PHP: (mario)&lt;/h4&gt;
+
+&lt;p&gt;Bij het creëren van de testopstelling hebben we vooral met Linux Xubuntu gewerkt.
+&lt;br&gt;
+Een mogelijk alternatief was de Windows server met IIS, maar hier doken enkele problemen op in verband met het maken van de connectie tussen de database en de webpagina.
+&lt;br&gt;
+Om de webpagina lokaal te kunnen testen op de Xubuntu hebben we gebruik gemaakt van apache2.
+&lt;br&gt;
+Handig hieraan is dat het samen met de Virtuele machine word opgestart en dat je bestanden altijd gehost worden.
+&lt;br&gt;
+De bestanden die gehost worden plaats je in de var/www/html map van het Device “Computer”.
+&lt;br&gt;
+Om in deze map te geraken moet je wel een programma installeren via Sudo apt-get install Nautilus.
+&lt;br&gt;
+Eenmaal je bestander hier gezet kan je ze ook nog steeds aanpassen.&lt;br /&gt;
+&lt;img src=&#34;../images/Testopstelling1.png&#34; alt=&#34;Image of Testopstelling1&#34; /&gt;
+
+&lt;br&gt;
+Php is verder een zeer handige programmeertaal aangezien het de mogelijkheid bied de verbinding met mysql op eenvoudige manier te maken.
+&lt;br&gt;
+Echter moet je je ervan bewust zijn dat je de queries goed laat aankomen en dat ze “hackproof” zijn tegen sql injection attacks.&lt;/p&gt;
+
+&lt;h4 id=&#34;mysql-wout:49018aa46b4d9d807d3267297f1e1a98&#34;&gt;MYSQL (Wout)&lt;/h4&gt;
+
+&lt;p&gt;Als testopstelling hebben we ook het opensource-managementsysteem voor databases namelijk MYSQL gebruikt.
+&lt;br&gt;
+Omdat we willen testen dat wanneer je een klasnummer ingeeft de gebruikt een leerling terugkrijgt , moeten we met een database werken.
+&lt;br&gt;
+We hebben in MYSQL Workbench een database ‘testopstelling’ met een tabel ‘klasgenoten’ gemaakt met hierin verschillende query&amp;rsquo;s.
+&lt;br&gt;
+Het werken met MYSQL is in het algemeen goed verlopen. We hebben kleine problemen gehad met het installeren van PhpMyAdmin was moeilijk verlopen.
+&lt;br&gt;
+Nadat dit was gelukt hebben we geen enkel probleem meer gehad.
+&lt;br&gt;
+De code in MYSQL zelf was ook niet moeilijk omdat we dit met het vak software ook al veel met SQL bezig geweest zijn.
+&lt;img src=&#34;../images/Testopstelling2.png&#34; alt=&#34;Image of Testopstelling2&#34; /&gt;
+
+&lt;br&gt;
+Je kan zelfs een code genereren zodat je zelf de code niet moet schrijven.
+&lt;br&gt;
+Dit heeft wel een nadeel omdat je wanneer je een fout hebt of een query moet toevoegen, je geen idee hebt hoe dit werkt en dus ook een nieuwe tabel zal moeten maken.&lt;/p&gt;
+
+&lt;h4 id=&#34;linken-van-php-met-mysql-greg:49018aa46b4d9d807d3267297f1e1a98&#34;&gt;Linken van PHP met MYSQL (Greg)&lt;/h4&gt;
+
+&lt;p&gt;Php en  mysql kan werken met een mysql database door het gebruik van MySQL extension of een PDO (PHP data objects).
+&lt;br&gt;
+Zowel MySQL en PDO hebben hun voordelen. MySQLi zal alleen werken met SQL databases en PDO kan met 12 verschillende databases werken.
+&lt;br&gt;
+Als je moet switchen tussen verschillende databases is het het best om dus PDO te gebruiken aangezien de verschillende databases die je kan gebruiken.
+&lt;br&gt;
+Met MySQLi moet je de hele code herschrijven wat een voordeel is en ook een nadeel.
+&lt;br&gt;
+Het voordeel is dat je zelf de specificaties kan schrijven het nadeel is dit vraag veel kennis werk en moeite.
+&lt;br&gt;
+Beiden zijn object georiënteerd maar MySQLi bied een API aan.
+&lt;br&gt;
+&lt;img src=&#34;../images/Testopstelling3.png&#34; alt=&#34;Image of Testopstelling3&#34; /&gt;
+
+&lt;br&gt;
+We hebben uiteindelijk ook nog een filmpje gemaakt met ons resultaat.
+&lt;br&gt;
+Het filmpje staat op youtube maar vindt u ook hieronder.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KEnIh1G3Hg4&#34; title=&#34;Testopstelling video&#34;&gt;&lt;img src=&#34;../images/TestopstellingVideo.png&#34; alt=&#34;Testopstellings&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

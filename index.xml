@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIP site Wout Wynen</title>
+    <link>http://wout-wynen.github.io/</link>
+    <description>Recent content on GIP site Wout Wynen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 May 2016 13:51:01 +0200</lastBuildDate>
+    <atom:link href="http://wout-wynen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Testopstelling: PHP met MYSQL</title>
+      <link>http://wout-wynen.github.io/Testopstelling/</link>
+      <pubDate>Tue, 10 May 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Testopstelling/</guid>
+      <description>
+
+&lt;h4 id=&#34;korte-samenvatting-van-onze-testopstelling-en-testen:49018aa46b4d9d807d3267297f1e1a98&#34;&gt;Korte samenvatting van onze testopstelling en testen.&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;
+Deze opdracht is samen gemaakt met Mario en Greg:
+&lt;br&gt;
+&lt;a href=&#34;http://mario-vankerckhoven.github.io/&#34;&gt;Mario vanKerckhoven&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;http://greg-groenvynck.github.io/&#34;&gt;Greg Groenvynck&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;php-mario:49018aa46b4d9d807d3267297f1e1a98&#34;&gt;PHP: (mario)&lt;/h4&gt;
+
+&lt;p&gt;Bij het creëren van de testopstelling hebben we vooral met Linux Xubuntu gewerkt.
+&lt;br&gt;
+Een mogelijk alternatief was de Windows server met IIS, maar hier doken enkele problemen op in verband met het maken van de connectie tussen de database en de webpagina.
+&lt;br&gt;
+Om de webpagina lokaal te kunnen testen op de Xubuntu hebben we gebruik gemaakt van apache2.
+&lt;br&gt;
+Handig hieraan is dat het samen met de Virtuele machine word opgestart en dat je bestanden altijd gehost worden.
+&lt;br&gt;
+De bestanden die gehost worden plaats je in de var/www/html map van het Device “Computer”.
+&lt;br&gt;
+Om in deze map te geraken moet je wel een programma installeren via Sudo apt-get install Nautilus.
+&lt;br&gt;
+Eenmaal je bestander hier gezet kan je ze ook nog steeds aanpassen.&lt;br /&gt;
+&lt;img src=&#34;../images/Testopstelling1.png&#34; alt=&#34;Image of Testopstelling1&#34; /&gt;
+
+&lt;br&gt;
+Php is verder een zeer handige programmeertaal aangezien het de mogelijkheid bied de verbinding met mysql op eenvoudige manier te maken.
+&lt;br&gt;
+Echter moet je je ervan bewust zijn dat je de queries goed laat aankomen en dat ze “hackproof” zijn tegen sql injection attacks.&lt;/p&gt;
+
+&lt;h4 id=&#34;mysql-wout:49018aa46b4d9d807d3267297f1e1a98&#34;&gt;MYSQL (Wout)&lt;/h4&gt;
+
+&lt;p&gt;Als testopstelling hebben we ook het opensource-managementsysteem voor databases namelijk MYSQL gebruikt.
+&lt;br&gt;
+Omdat we willen testen dat wanneer je een klasnummer ingeeft de gebruikt een leerling terugkrijgt , moeten we met een database werken.
+&lt;br&gt;
+We hebben in MYSQL Workbench een database ‘testopstelling’ met een tabel ‘klasgenoten’ gemaakt met hierin verschillende query&amp;rsquo;s.
+&lt;br&gt;
+Het werken met MYSQL is in het algemeen goed verlopen. We hebben kleine problemen gehad met het installeren van PhpMyAdmin was moeilijk verlopen.
+&lt;br&gt;
+Nadat dit was gelukt hebben we geen enkel probleem meer gehad.
+&lt;br&gt;
+De code in MYSQL zelf was ook niet moeilijk omdat we dit met het vak software ook al veel met SQL bezig geweest zijn.
+&lt;img src=&#34;../images/Testopstelling2.png&#34; alt=&#34;Image of Testopstelling2&#34; /&gt;
+
+&lt;br&gt;
+Je kan zelfs een code genereren zodat je zelf de code niet moet schrijven.
+&lt;br&gt;
+Dit heeft wel een nadeel omdat je wanneer je een fout hebt of een query moet toevoegen, je geen idee hebt hoe dit werkt en dus ook een nieuwe tabel zal moeten maken.&lt;/p&gt;
+
+&lt;h4 id=&#34;linken-van-php-met-mysql-greg:49018aa46b4d9d807d3267297f1e1a98&#34;&gt;Linken van PHP met MYSQL (Greg)&lt;/h4&gt;
+
+&lt;p&gt;Php en  mysql kan werken met een mysql database door het gebruik van MySQL extension of een PDO (PHP data objects).
+&lt;br&gt;
+Zowel MySQL en PDO hebben hun voordelen. MySQLi zal alleen werken met SQL databases en PDO kan met 12 verschillende databases werken.
+&lt;br&gt;
+Als je moet switchen tussen verschillende databases is het het best om dus PDO te gebruiken aangezien de verschillende databases die je kan gebruiken.
+&lt;br&gt;
+Met MySQLi moet je de hele code herschrijven wat een voordeel is en ook een nadeel.
+&lt;br&gt;
+Het voordeel is dat je zelf de specificaties kan schrijven het nadeel is dit vraag veel kennis werk en moeite.
+&lt;br&gt;
+Beiden zijn object georiënteerd maar MySQLi bied een API aan.
+&lt;br&gt;
+&lt;img src=&#34;../images/Testopstelling3.png&#34; alt=&#34;Image of Testopstelling3&#34; /&gt;
+
+&lt;br&gt;
+We hebben uiteindelijk ook nog een filmpje gemaakt met ons resultaat.
+&lt;br&gt;
+Het filmpje staat op youtube maar vindt u ook hieronder.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=KEnIh1G3Hg4&#34; title=&#34;Testopstelling video&#34;&gt;&lt;img src=&#34;../images/TestopstellingVideo.png&#34; alt=&#34;Testopstellings&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IT-Profile</title>
+      <link>http://wout-wynen.github.io/IT-profile/</link>
+      <pubDate>Mon, 09 May 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/IT-profile/</guid>
+      <description>&lt;p&gt;&lt;html&gt;
+&lt;head&gt;
+&lt;div id = &#34;title&#34;&gt;Wout Wynen IT-Profile&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/head&gt;
+&lt;style&gt;
+#title {
+  font-family:&amp;ldquo;Courier New&amp;rdquo;;
+  font-size: 50px;
+  text-align: center;
+}
+#chartBasiskennis{
+position:relative;
+}&lt;/p&gt;
+
+&lt;p&gt;&lt;/style&gt;
+&lt;body&gt;
+&lt;div id=&#34;chartBasiskennis&#34; style=&#34;width: 1000x; height: 250px;position:relative;&#34;&gt;&lt;/div&gt;
+&lt;div&gt;.&lt;/div&gt;
+&lt;div id=&#34;chartVerdereKennis&#34; style=&#34;width: 1000x; height: 150px;position:relative;&#34;&gt;&lt;/div&gt;
+&lt;div&gt;.&lt;/div&gt;
+&lt;div id=&#34;chartSysteembeheer&#34; style=&#34;width: 1000x; height: 150px;position:relative;&#34;&gt;&lt;/div&gt;
+&lt;div&gt;.&lt;/div&gt;
+&lt;div id=&#34;chartToekomst&#34; style=&#34;width: 1000x; height: 150px;position:relative;&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.gstatic.com/charts/loader.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenLite.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://code.jquery.com/jquery-2.2.3.js&#34;&gt; &lt;/script&gt;
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../js/canvasjs.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../js/charts.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/body&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/html&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stage bij Van Roey Turnhout</title>
+      <link>http://wout-wynen.github.io/Stageverslagen/</link>
+      <pubDate>Thu, 05 May 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Stageverslagen/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://www.webstore.be/media/vra-turnhout.jpg&#34; alt=&#34;Image of Van Roey Turnhout&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&#34;dag-1:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 1&lt;/h5&gt;
+
+&lt;p&gt;Eerste dag goed begonnen met 2 laptops uit elkaar te halen en er bij de ene een nieuw moederbord ingestoken en een harde schijf en bij de andere een nieuw moederbord en een nieuwe LCD kabel.
+&lt;br&gt;
+Ook de besturingssystemen herstelt en een backup genomen van de gegevens.
+&lt;br&gt;
+Er was ook een kleine rondleiding op de afdeling.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-2:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 2&lt;/h5&gt;
+
+&lt;p&gt;Eerste paar uren meegekeken met de stagementor bij het opnemen van oproepen en het helpen van klanten op afstand.
+&lt;br&gt;
+Ook terug een laptop uit elkaar gehaald en een harde schijf vervangen.
+&lt;br&gt;
+Dan de oude harde schijf extern aangesloten op een andere laptop om hier de gegevens op over te zetten.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-3:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 3&lt;/h5&gt;
+
+&lt;p&gt;Op 2 laptops ook office en antivirus geïnstalleerd en ook geupgrade naar windows 10.
+&lt;br&gt;
+Laptop met opstartproblemen bekeken en geprobeerd hem te maken.
+&lt;br&gt;
+Dit was niet gelukt zonder hulp maar had wel een backup van de gegevens genomen voor het geval dat.
+&lt;br&gt;
+De harde schijf van een fysieke computer is ook vervangen.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-4:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 4&lt;/h5&gt;
+
+&lt;p&gt;Dag begonnen met het vernietigen van alle overgebleven hardware en dozenn die op ik op datum heb moeten selecteren.
+&lt;br&gt;
+Daarna een desktop moeten nakijken omdat deze problemen had met de internet verbinding. (Drivers geüpdate, ping test gedaan, enz..)
+&lt;br&gt;
+Dan met opdracht over de CaseStudy bezig want er was weinig te doen en er werd veel gebeld.erste taak: computer verschonen en helemaal vernieuwen.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-5:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 5&lt;/h5&gt;
+
+&lt;p&gt;Begonnen met de overgebleven laptops te sorteren, schermen terug in te stellen en kabels te sorteren.
+&lt;br&gt;
+Ook een switch geplaatst en hier terug alle ethernet kabels gesorteerd.
+&lt;br&gt;
+Dan ethernet kabels geordend en wat verplaatst en opgekuist.
+&lt;br&gt;
+Verder ook nog een herstel uitgevoerd op een moederbord maar dit was weinig werk omdat dit na verder onderzoek toch kapot was.&lt;br /&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-6:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 6&lt;/h5&gt;
+
+&lt;p&gt;Problemen met office opgelost en harde schijf op een desktop vervangen.
+&lt;br&gt;
+Daarna Windows 8 op deze harde schijf gezet en natuurlijk ook geconfigureerd.
+&lt;br&gt;
+Ook laptop binnengekregen die problemen had met harde schijf maar na enkele tests was gebleken dat de harde schijf gewoon kapot was en is hiervoor een nieuwe besteld.
+&lt;br&gt;
+Dan ook nog een laptop binnengekregen waarvan de internetverbinding getest is en hieruit was gebleken dat het wifi kaartje kapot was en is er dus ook een nieuw besteld.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-7:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 7&lt;/h5&gt;
+
+&lt;p&gt;Begonnen met een gesprek met de directie over enkele gegevens die nodig waren voor bedrijfsbeheer.
+&lt;br&gt;
+Hierna deze gegevens uitgetypt. Daarna meegekeken met het vervangen van het scherm van een gsm toestel. In de namiddag nog een moederbord vervangen.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-8:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 8&lt;/h5&gt;
+
+&lt;p&gt;Vele notebooks uit elkaar gehaald en hier telkens 4GB RAM bijgestoken of vervangen.
+&lt;br&gt;
+Dan een desktop geconfigureerd met Windows 10 op en hier ook de basisprogramma&amp;rsquo;s en office geïnstalleerd.
+&lt;br&gt;
+Als laatste nog de ethernet beter aangesloten op een switch om hier dan de testschermen en de pc&amp;rsquo;s met ethernet te laten kunnen verbinden.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-9:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 9&lt;/h5&gt;
+
+&lt;p&gt;Dag begonnen met het nakijken van een laptop waar het beeldstuurprogramma niet meer werkt.
+&lt;br&gt;
+Dit was een klein probleem met de driver en dus was het zo opgelost.
+&lt;br&gt;
+Daarna aan de GIP gewerkt (frans) en dit ook nog een lange tijd gedaan.
+&lt;br&gt;
+Dan in de namiddag een gaming pc (die zelf samengesteld was) nagekeken omdat deze hele tijd vast hing en er mogelijk niet genoeg schijfruimte was.
+&lt;br&gt;
+De drivers zijn geüpdatet en momenteel zijn er geen andere problemen mee.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;dag-10:269ae419ea9f3e340d0deb3d4219f7cf&#34;&gt;Dag 10&lt;/h5&gt;
+
+&lt;p&gt;Laatste dag was het heel rustig. Enkel een paar backups moeten nemen.
+&lt;br&gt;
+Daarna aan GIP gewerkt en alles opgeruimd.
+&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Review of a software tool in the training company: Van Roey Automation</title>
+      <link>http://wout-wynen.github.io/Review/</link>
+      <pubDate>Wed, 04 May 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Review/</guid>
+      <description>
+
+&lt;h5 id=&#34;n-able-software-review-solarwinds-company:34ebcfd1cfa3321b387d6c584f68cba4&#34;&gt;N-able software review (solarwinds company)&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.forbesimg.com/media/lists/companies/solarwinds_416x416.jpg&#34; alt=&#34;Image of SolarwindsLogo&#34; /&gt;
+
+&lt;br&gt;
+The N-able software is from the company Solarwinds and is one of the global leaders in IT management software and IT service providers.
+&lt;br&gt;
+It is specialized in providing a lot of information about the devices connected in a network.
+&lt;br&gt;
+Many companies use it to ease the communication between departments and help out the customers as quickly as possible.
+&lt;br&gt;
+With the advanced techniques it is also able to notify the users when a technical difficulty is happening with any of the devices.
+&lt;br&gt;
+Van Roey uses this program with basically everything. When they arive and put the computer on, the program is already running. They use every feature of the software: communication, service, reports, etc..
+&lt;br&gt;
+The N-able software is in my opinion great software to use in big companies.
+&lt;br&gt;
+It is easy to use and it has a lot of monitoring tools.
+&lt;br&gt;
+I’m not a fan of the monitoring tools, because they are a bit sketchy and hard to understand.
+&lt;br&gt;
+I think they need to make fewer tools and put more effort into them individually.
+&lt;br&gt;
+The notification that the staff gets on their phones and computers is a very useful feature.
+&lt;br&gt;
+There is still one downside to the notifications though:
+&lt;br&gt;
+When you have installed the app on your phone, there is no way for you to turn the notifications offline without uninstalling the application.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br /&gt;
+I don’t know the company personally but based on previous reviews and the opinions of a couple of users, there are not many updates within the company.
+&lt;br&gt;
+This means that there are sometimes flaws and bugs in the system.
+&lt;br&gt;
+I’ve heard that the company have been running pretty flat for more than 5 years now and that doesn’t surprise me. I haven’t heard of this company even once and if I hadn’t done my internship with a company that uses this software, I would probably never have heard of it.
+&lt;br&gt;
+Although they are one of the global leaders in IT management software, I still think that there is a lot of room for improvement when it comes to publicity and updates.
+&lt;br&gt;
+&lt;strong&gt;The N-able software is great in general, but it has its flaws.&lt;/strong&gt;
+&lt;br&gt;
+I don’t know the price of the software. There is no information about it on the site and I can’t seem to find an estimation anywhere. However, If it is not too expensive, I’d definitely recommend it but right now it does not earn my vote.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Huisstijl stagebedrijf Van Roey</title>
+      <link>http://wout-wynen.github.io/Huisstijl/</link>
+      <pubDate>Sat, 05 Mar 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Huisstijl/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../images/VanRoey.png&#34; alt=&#34;Image of Van Roey&#34; /&gt;
+
+&lt;br&gt;
+Van Roey heeft allereerst zoals de meeste bedrijven een logo.
+&lt;br&gt;
+Dit logo wordt gebruikt voor zowel de business kant als bij de kant van de consumenten.
+&lt;br&gt;
+Zowel op de website als op de webstore wordt het logo getoond.
+&lt;br&gt;
+In de winkel zelf heb je minder te maken met het logo maar meer met andere typische aspecten.
+&lt;br&gt;
+Als je bijvoorbeeld een herstelde computer terugkrijgt zal hier een typische blauwe factuur aan vast hangen met hierop alle informatie.
+&lt;br&gt;
+Ze hebben zowel blauwe (klantenfacturen) als roze(leveranciersfacturen) die de administratie voor hun veel handiger maakt.
+&lt;br&gt;
+Als je met een probleem of vraag zou zitten en er een email wordt teruggekregen van één van de collega’s
+&lt;br&gt;
+dan is deze automatisch uitgerust met de naam van de medewerker, zijn functie en de gegevens van Van Roey.
+&lt;br&gt;
+Ook de gekke reclame van Van Roey kan je onder huisstijl omvatten. Met de grappige boodschappen en de subtiele reclame kan je Van Roey ook herkennen van andere.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CaseStudy : N-able software</title>
+      <link>http://wout-wynen.github.io/CaseStudy/</link>
+      <pubDate>Fri, 04 Mar 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/CaseStudy/</guid>
+      <description>
+
+&lt;h4 id=&#34;wat:012002a4ccf4c08711ada36cec8a571e&#34;&gt;Wat?&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/N-central.png&#34; alt=&#34;Image of N-Central&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Als onderwerp van de CaseStudy heb ik de software n-able gekozen die mijn stagebedrijf Van Roey gebruikt.&lt;/strong&gt;
+&lt;br&gt;
+Deze software is bedoeld om de gebruikers en de klanten hulp te bieden.
+&lt;br&gt;
+De software houdt zich vooral bezig met het vergemakkelijken van alledaagse taken die door het personeel gedaan moeten worden.
+&lt;br&gt;
+Als men bijvoorbeeld s’morgens op het werk aankomt, is het de bedoeling dat alle computers van klanten en personeel een systeemcheck krijgen.
+&lt;br&gt;
+Dit wordt automatisch gedaan door de N-able software.
+&lt;br&gt;
+Het personeel moet bij het opstarten van de computers ook inloggen op het programma om zo een overzicht te krijgen van welke collega’s er niet op het werk zijn of eventueel te laat zijn door file.&lt;/p&gt;
+
+&lt;h4 id=&#34;op-stagebedrijf:012002a4ccf4c08711ada36cec8a571e&#34;&gt;Op stagebedrijf&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/N-central2.png&#34; alt=&#34;Image of N-Central&#34; /&gt;
+
+&lt;br&gt;
+Wanneer klanten hardware binnenbrengen, wordt dit automatisch verbonden met de N-able software.
+&lt;br&gt;
+Deze sofware zorgt voor de beveiliging in verband met virussen en spyware.
+&lt;br&gt;
+Ook wordt er automatisch een backup genomen van de harde schijf om te voorkomen dat de klant zijn gegevens verloren gaan.
+&lt;br&gt;
+Wanneer het personeel reparaties wil uitvoeren aan een computer van een klant, moet dit eerst op het programma geregistreerd worden, zodat iedereen hiervan op de hoogte is.
+&lt;br&gt;
+Het krijgen van notificaties op je mobiele apparaten is ook een heel handige functie aan de software.
+&lt;br&gt;
+Het personeel moet een applicatie downloaden dat gelinkt is aan het programma.
+&lt;br&gt;
+Hierdoor krijgen ze telkens meldingen op hun apparaat wanneer er bv. iets mis is met de computer, dat de netwerkverbinding niet optimaal is, enz&amp;hellip;
+&lt;br&gt;
+Dan is er nog een laatste maar zeker niet te vergeten functie van de tool. Als er klanten met een informatica probleem zitten, bellen ze meestal naar de informatica afdeling bij Van Roey. Dit gebeurt ook via de N-able software.
+&lt;br&gt;
+Het personeel krijgt een melding op zijn computer dat er een klant belt. Hiermee kunnen ze dan ook opnemen of de klanten doorverbinden met de juiste persoon.
+&lt;br&gt;
+Van Roey zelf werkt er nog niet lang mee, maar ze zijn nu al heel tevreden over de prestaties die het programma heeft geleverd. Het bespaart de firma veel tijd en kosten.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;eigen-mening-over-de-software:012002a4ccf4c08711ada36cec8a571e&#34;&gt;Eigen mening over de software&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.clipartbest.com/cliparts/dc6/Raa/dc6RaaKc9.jpeg&#34; alt=&#34;Image of opinion&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Voor de korte tijd dat ik ermee gewerkt heb en deze software echt gebruikt heb, vind ik het zeker een aanrader voor grote bedrijven.
+&lt;br&gt;
+Het spaart veel tijd uit en zorgt ervoor dat iedereen optimaal samenwerkt met elkaar.
+&lt;br&gt;
+Een groot nadeel is wel dat er nergens vermeld staat hoeveel deze software kost, en dus je ook niet kan zien op voorhand of dit de moeite wel is.
+&lt;br&gt;
+Zeker geen aanrader voor mensen die zelfstandig alleen werken of een kleine onderneming zijn.
+&lt;br&gt;
+Verder niets slecht op te zeggen. Deze software kan wel eens heel bekend worden als grote bedrijven dit gaan gebruiken.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wikipedia database</title>
+      <link>http://wout-wynen.github.io/DatabaseUseCase/</link>
+      <pubDate>Fri, 04 Mar 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/DatabaseUseCase/</guid>
+      <description>&lt;p&gt;Mijn UseCase diagramma is gebaseerd op het concept van wikipedia.
+ &lt;br&gt;
+ De SQL code die gebaseerd is op dit UseCaseDiagramma kan u &lt;a href=&#34;https://gitlab.com/wout-wynen/WikipediaSQL&#34;&gt;hier&lt;/a&gt; terug vinden.
+ &lt;br&gt;
+&lt;img src=&#34;../images/UseCase.png&#34; alt=&#34;Image of UseCase&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Un reportage de photo concernant le stage</title>
+      <link>http://wout-wynen.github.io/ReportagePhoto/</link>
+      <pubDate>Fri, 04 Mar 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/ReportagePhoto/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pour mon reportage de photo j&amp;rsquo;ai utilisé Prezi  pour présenter mes photos. Cliquez ici pour commencer la présentation:&lt;/strong&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;iframe id=&#34;iframe_container&#34; frameborder=&#34;0&#34; webkitallowfullscreen=&#34;&#34; mozallowfullscreen=&#34;&#34; allowfullscreen=&#34;&#34; width=&#34;700&#34; height=&#34;500&#34; src=&#34;https://prezi.com/embed/e06uhhxazsi7/?bgcolor=ffffff&amp;amp;lock_to_path=1&amp;amp;autoplay=0&amp;amp;autohide_ctrls=0&amp;amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5Nkt6aXlwTGI4ZkE0clRkUFRKR0w0b2xRPT0&amp;amp;landing_sign=lC2qcrJKMDAHVJskIVAAvQvVaq1BGpAqQrTHdo5o8K4&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Instruction guide</title>
+      <link>http://wout-wynen.github.io/Instructionvideo/</link>
+      <pubDate>Tue, 01 Dec 2015 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Instructionvideo/</guid>
+      <description>
+
+&lt;h5 id=&#34;instruction-video-about-android:4b34616bfa3785ab850e7d8b1d1c8d7a&#34;&gt;Instruction video about android&lt;/h5&gt;
+
+&lt;p&gt;We made an instruction video to show you how to add an account to your smartphone.
+&lt;br&gt;
+If you&amp;rsquo;d like to check it out, just click on the video below!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=liHLTloaZ1E&#34; title=&#34;English video tutorial&#34;&gt;&lt;img src=&#34;http://wout-wynen.github.io//images/Englishvideo.png&#34; alt=&#34;InstructionVideo&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android presentatie - middagsessie</title>
+      <link>http://wout-wynen.github.io/IT-tapa/</link>
+      <pubDate>Sun, 15 Nov 2015 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/IT-tapa/</guid>
+      <description>&lt;p&gt;Onze  &lt;a href=&#34;https://www.facebook.com/IT-tapa-588405757863108/&#34;&gt;IT-tapa&lt;/a&gt; sessie ging over het gebruik, de handige functies en apps van &lt;a href=&#34;https://www.android.com/&#34;&gt;Android&lt;/a&gt;.
+Samen met mijn duo partner Yorick hebben we de leerkracht en leerlingen toch wat bijgeleerd over:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;- Accounts toevoegen op Google&lt;/li&gt;
+&lt;li&gt;- Sneller en handiger werken met Android&lt;/li&gt;
+&lt;li&gt;- Nuttige apps en tips voor smartphones&lt;/li&gt;
+&lt;li&gt;- Beveiliging op Android&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Na het geven van de IT-tapa sessie was ik zelf toch aangenaam verrast. &lt;br&gt;
+ Ik vond het een heel leuke en leerrijke ervaring om de rollen is te mogen omdraaien en deze keer zelf eens &amp;lsquo;les&amp;rsquo; te geven.
+ Het was helemaal anders dan een gewone presentatie of een voorstelling.
+ Het meehelpen van de leerkrachten en leerlingen was toch nog leuker als anders en ik denk dat mijn partner dit ook vond.
+ &lt;br&gt;
+ De website van Yorick vind je &lt;a href=&#34;http://www.disite.be/yorick.scheyltjens/index.php&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wout-wynen.github.io//images/IT-tapa1.png&#34; alt=&#34;Image of Wout Wynen&#34; /&gt;
+
+&lt;img src=&#34;http://wout-wynen.github.io//images/IT-tapa2.png&#34; alt=&#34;Image of Wout Wynen&#34; /&gt;
+
+&lt;img src=&#34;http://wout-wynen.github.io//images/IT-tapa3.png&#34; alt=&#34;Image of Wout Wynen&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WORKFLOWS</title>
+      <link>http://wout-wynen.github.io/HugoVerschil/</link>
+      <pubDate>Thu, 29 Oct 2015 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/HugoVerschil/</guid>
+      <description>
+
+&lt;h4 id=&#34;wat-is-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Wat is Hugo?&lt;/h4&gt;
+
+&lt;p&gt;Hugo is een static website engine.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Het kan efficient worden gebruikt en is met wat kennis vrij snel opgebouwd.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;De posts worden in Markdown geschreven en de rest van de site vooral in HTML en CSS.&lt;/p&gt;
+
+&lt;h4 id=&#34;positieve-en-negatieve-kanten:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Positieve en negatieve kanten&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;wat-ik-goed-vond-aan-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Wat ik goed vond aan Hugo:&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;-Posts zijn makkelijk te maken en in markdown geschreven.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-Veel verschillende thema&amp;rsquo;s die uitstekend gemaakt zijn.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-Makkelijk te gebruiken met github (pages) en andere hosting sites.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;wat-ik-minder-goed-vond-aan-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Wat ik minder goed vond aan Hugo:&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;-Om grondige aanpassingen te doen moet je wel wat kennis hebben van HTML en CSS.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-Thema&amp;rsquo;s zijn soms moeilijk te begrijpen.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-Geen hulp, veel zelfstandig uitzoeken.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;mening-over-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Mening over Hugo&lt;/h4&gt;
+
+&lt;p&gt;Hugo is een interessante engine als je blog wil opbouwen. Zelf weet ik niet of ik ook dezelfde zou gekozen hebben maar dit is vooral omdat ik niet echt andere static website engines ken.
+Als je je even in Hugo verdiept kan je vrij veel bijleren en ook wel plezier in het maken van je site ondervinden als je het test.
+Ik vind het niet zo gemakkelijk om er iets in aan te passen maar dit zorgt er wel voor dat het heel belonend is als je wel iets kan aanpassen waar je al een tijdje achter zat te zoeken.
+Hierin kan je gewoon met een interface een post toevoegen en hoef je je geen zorgen te maken over bepaalde dingen zoals opmaak.
+Wordpress is dus ook makkelijker te gebruiken dan Hugo maar dit wil ook zeggen dat je dan niet zo uitgebreid je site kan aanpassen.&lt;/p&gt;
+
+&lt;h4 id=&#34;structuur-van-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Structuur van Hugo&lt;/h4&gt;
+
+&lt;p&gt;De structuur van Hugo vind ik persoonlijk soms ingewikkeld maar na veel gebruiken werd dit duidelijker voor mij.
+Als je een thema gebruikt en dit dan ook kloont van Gitlab, staat dit in een aparte map bij themes maar dit is makkelijk over te zetten naar de standaard mapjes van Hugo.
+Dan heb je ook nog een mapje content waar al je posts staan.
+Ook de map archetypes en de mappen layouts en static zijn erg belangrijk voor je website.
+In de map layouts vind je je default thema waarop je site is gebaseerd. Dit is aanpasbaar maar ik heb dit uitgetest en vind dit nogal moeilijk om te doen.
+Dan in de map static staan je afbeeldingen en hier vind je ook al de Javascript en CSS bestanden. Hier heb ik niets aan veranderd.
+Dan als laatste heb je je public map. Hier word eigenlijk je website in gegenereerd om deze online te plaatsen.
+Wat ik wel heb gemerkt aan de map is dat hier vaak fouten in kunnen komen als je bv overschakelt van twee thema&amp;rsquo;s, daarom is dit ook vrij belangrijk om deze te wissen en om een nieuwe public map te laten genereren.&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusie:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Conclusie&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hugo is een goeie keuze als je veel wilt bijleren over hoe je een blog moet maken en er graag wel wat tijd aan besteed om het aan te passen.&lt;/li&gt;
+&lt;li&gt;De thema&amp;rsquo;s zijn leuk maar soms ook wel moeilijk om volledig te begrijpen.&lt;/li&gt;
+&lt;li&gt;Perfect voor onze GIP opdracht omdat je er veel in moet gaan zoeken en zelfstandig moet uittesten.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MY LIFE AND IT</title>
+      <link>http://wout-wynen.github.io/Autobiography/</link>
+      <pubDate>Wed, 21 Oct 2015 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Autobiography/</guid>
+      <description>&lt;p&gt;&lt;br&gt;
+I am Wout Wynen, a 17-year old student in the 6th year at the Immaculata High school in Oostmalle and I’m going to tell you a little bit more about my life in IT so far. What I have accomplished, what I want to accomplish ,what I love about IT management and so on.
+&lt;br&gt;
+My first experience with IT was back when I was just a little boy of about 6 years old. My parents bought their first computer and I was astonished about what it was and how it worked. At first I didn’t know how the concept of internet worked but after spending many hours learning, I finally managed to play my first game. I found it to be so much fun that I spent some days after school just playing the game and discovering new things. I still don’t really know how I managed to play it without any help but I’m kind of proud of it now.&lt;/p&gt;
+
+&lt;p&gt;Since I was into computers at such a young age, I’ve been interested in computers ever since I discovered them. IT means a lot to me now but in a totally different way than before.
+I like the different aspects of computer programming and hardware more than ever before. The gaming aspect has become less interesting for me over the past year because I simply prefer discovering and learning new things for example: how to build a site. I spend a lot of my free time on the internet but not in an addictive way. I spend mostly about two hours on a regular day but that’s schoolwork included. Sometimes I feel like doing some programming but on other days I just prefer to play games with friends. I would not consider myself an expert but maybe in the future that title will come my way.
+&lt;/p&gt;
+
+&lt;p&gt;I’d like to do something with IT for a living. I’m not really sure what field of IT I am more interested in. Hardware and software are both very interesting fields for me but I think after this year, I will have my answer. At the moment I like the software part a bit more but that might just be for a short period of time because last year I was more into hardware.&lt;/p&gt;
+
+&lt;p&gt;My life would be totally different without IT. I have no idea what I would be doing then, and I don’t want to think about it anyway. I like the way my life is right now and I am doing what I love doing the most. When you study IT, it’s of course a major part in your life but not in a bad way. You can talk with friends even after school, play games with them, and just have fun in general.&lt;br /&gt;
+I hope I will find a job in IT someday because then I never have to work a day of my life.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://scontent-ams2-1.xx.fbcdn.net/hphotos-xpt1/t31.0-8/12138391_914998781870469_5782153303557822632_o.jpg&#34; alt=&#34;Image of Wout Wynen&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Foire Aux Questions</title>
+      <link>http://wout-wynen.github.io/Questions/</link>
+      <pubDate>Wed, 21 Oct 2015 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Questions/</guid>
+      <description>
+
+&lt;h4 id=&#34;j-espère-que-cette-faq-vous-aidera-un-peu-avec-votre-problème:ed1ad08f914bc572bb96a76de3739210&#34;&gt;J&amp;rsquo;espère que cette FAQ vous aidera un peu avec votre problème&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;img src=&#34;http://www.remindmecare.com/wp-content/uploads/2015/08/FAQ.jpg&#34; alt=&#34;Image of FAQ&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&#34;question-1-est-il-possible-d-ajouter-un-compte-facebook-de-cette-manière:ed1ad08f914bc572bb96a76de3739210&#34;&gt;Question 1:  Est-il possible d’ajouter un compte Facebook de cette manière?&lt;/h5&gt;
+
+&lt;p&gt;Réponse 1: Oui, c’est possible. Cela fonctionne de la mëme manière.&lt;/p&gt;
+
+&lt;h5 id=&#34;question-2-vous-pouvez-lier-votre-courrier-électronique-à-l-appli-de-smartschool:ed1ad08f914bc572bb96a76de3739210&#34;&gt;Question 2: Vous pouvez lier votre courrier électronique à l’appli de Smartschool?&lt;/h5&gt;
+
+&lt;p&gt;Réponse 2: Non, c’est ne pas possible sur le smartphone, seulement sur votre ordinateur.&lt;/p&gt;
+
+&lt;h5 id=&#34;question-3-vous-pouvez-lier-plusieurs-comptes-à-google:ed1ad08f914bc572bb96a76de3739210&#34;&gt;Question 3: Vous pouvez lier plusieurs comptes à Google?&lt;/h5&gt;
+
+&lt;p&gt;Réponse 3: Oui , c’est possible. Vous pouvez ajouter aussi un compte privé par exemple.
+Vous pouvez changer toujours entre les comptes.&lt;/p&gt;
+
+&lt;h5 id=&#34;question-4-où-pouvez-vous-régler-quelles-applications-peuvent-se-synchroniser:ed1ad08f914bc572bb96a76de3739210&#34;&gt;Question 4: Où pouvez-vous régler quelles applications peuvent se synchroniser?&lt;/h5&gt;
+
+&lt;p&gt;Réponse 4: Vous pouvez régler les paramètres et puis les comptes.
+Là-bas vous pouvez choisir “Google”. Ensuite, vous choisissez un compte.
+Finalement vous pouvez choisir quelles applications peuvent se synchroniser.&lt;/p&gt;
+
+&lt;h5 id=&#34;question-5-quelle-est-l-utilité-la-de-synchronisation-des-comptes:ed1ad08f914bc572bb96a76de3739210&#34;&gt;Question 5: Quelle est l’utilité la de synchronisation des comptes ?&lt;/h5&gt;
+
+&lt;p&gt;Réponse 5: Il est utile pour beaucoup de choses.
+Vous pouvez gérer des rendez-vous et des documents plus faciles et quand vous avez un rendez-vous par example, vous obtenez un message sur le smartphone.&lt;/p&gt;
+
+&lt;h5 id=&#34;question-6-est-ce-qu-il-y-a-beaucoup-de-risques-quand-j-ai-lié-mon-compte-à-mon-smartphone:ed1ad08f914bc572bb96a76de3739210&#34;&gt;Question 6:  Est-ce qu’il y a beaucoup de risques quand j’ai lié mon compte à mon smartphone?&lt;/h5&gt;
+
+&lt;p&gt;Reponse 6: Non, pas du tout. Il n&amp;rsquo;y a aucun risque quand vous avez votre smartphone avec vous.Mais le moment que vous perdez votre smartphone, tout le monde peut à votre email, ordre du jour, etc.. sans un mot de passe.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://wout-wynen.github.io/VirussenGame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wout-wynen.github.io/VirussenGame/</guid>
+      <description>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;../css/mystyle.css&#34;&gt;
+
+&lt;select id = &#34;lvls&#34;&gt;
+  &lt;option value=&#34;1000&#34;&gt;Easy&lt;/option&gt;
+  &lt;option value=&#34;500&#34;&gt;Medium&lt;/option&gt;
+  &lt;option value =&#34;200&#34;&gt;Hard&lt;/option&gt;
+&lt;/select&gt;
+&lt;div id = &#34;slider&#34;&gt;&lt;/div&gt;
+&lt;!--&lt;button onclick=&#34;setInterval(test,1000)&#34;&gt;start&lt;/button&gt;  --&gt;
+&lt;div id =&#34;resultaat&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;Counter&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;hoofdDiv&#34;&gt;
+&lt;/div&gt;
+&lt;div id = &#34;welkomstTekst&#34;&gt; Welkom op mijn virusgame! Het doel van het spel is om alle virussen aan te klikken voor de tijd op is, vergeet ook zeker niet de moeilijkheidsgraad aan te passen! &lt;/div&gt;
+&lt;div id = &#34;link&#34;&gt;Als u graag de code van dit spel eens wilt bekijken op Gitlab, klik dan &lt;a href=&#34;https://gitlab.com/wout-wynen/GipJavascript&#34; style = &#34;color:white&#34;&gt; hier &lt;/a&gt;&lt;/div&gt;
+
+
+
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-2.2.3.js&#34;&gt; &lt;/script&gt;
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/javascript.validation/1.2.0/validation.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/CSSPlugin.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/CSSPlugin.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/easing/EasePack.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenLite.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ColorPropsPlugin.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src = &#34;../js/JsCircles.js&#34;&gt;&lt;/script&gt;
+
+
+
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+body {
+
+  background-image: url("../images/VirusImage.jpg");
+}
+#slider{
+
+  width:300px;
+  height:150px;
+  background-image: url("../images/Play.png");
+}
+#resultaat{
+  position: absolute;
+  color: yellow;
+  text-align: center;
+  font-size: 100px;
+  left: 35%;
+  top:25px;
+  font-family:papyrus;
+  font-weight:bold;
+}
+#Counter {
+  color:blue;
+  font-size: 20px;
+  font-weight:bold;
+}
+#welkomstTekst{
+  color: #12BBF0;
+  font-size:50px;
+  font-weight:bold;
+  text-align: center;
+
+}
+#link {
+  color: #12BBF0;
+  font-size:40px;
+  font-weight: bold;
+  text-align: center;
+}

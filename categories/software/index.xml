@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on GIP site Wout Wynen</title>
+    <link>http://wout-wynen.github.io/categories/software/</link>
+    <description>Recent content in Software on GIP site Wout Wynen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 May 2016 13:51:01 +0200</lastBuildDate>
+    <atom:link href="http://wout-wynen.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IT-Profile</title>
+      <link>http://wout-wynen.github.io/IT-profile/</link>
+      <pubDate>Mon, 09 May 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/IT-profile/</guid>
+      <description>&lt;p&gt;&lt;html&gt;
+&lt;head&gt;
+&lt;div id = &#34;title&#34;&gt;Wout Wynen IT-Profile&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/head&gt;
+&lt;style&gt;
+#title {
+  font-family:&amp;ldquo;Courier New&amp;rdquo;;
+  font-size: 50px;
+  text-align: center;
+}
+#chartBasiskennis{
+position:relative;
+}&lt;/p&gt;
+
+&lt;p&gt;&lt;/style&gt;
+&lt;body&gt;
+&lt;div id=&#34;chartBasiskennis&#34; style=&#34;width: 1000x; height: 250px;position:relative;&#34;&gt;&lt;/div&gt;
+&lt;div&gt;.&lt;/div&gt;
+&lt;div id=&#34;chartVerdereKennis&#34; style=&#34;width: 1000x; height: 150px;position:relative;&#34;&gt;&lt;/div&gt;
+&lt;div&gt;.&lt;/div&gt;
+&lt;div id=&#34;chartSysteembeheer&#34; style=&#34;width: 1000x; height: 150px;position:relative;&#34;&gt;&lt;/div&gt;
+&lt;div&gt;.&lt;/div&gt;
+&lt;div id=&#34;chartToekomst&#34; style=&#34;width: 1000x; height: 150px;position:relative;&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.gstatic.com/charts/loader.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenLite.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://code.jquery.com/jquery-2.2.3.js&#34;&gt; &lt;/script&gt;
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../js/canvasjs.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../js/charts.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/body&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/html&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Huisstijl stagebedrijf Van Roey</title>
+      <link>http://wout-wynen.github.io/Huisstijl/</link>
+      <pubDate>Sat, 05 Mar 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/Huisstijl/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../images/VanRoey.png&#34; alt=&#34;Image of Van Roey&#34; /&gt;
+
+&lt;br&gt;
+Van Roey heeft allereerst zoals de meeste bedrijven een logo.
+&lt;br&gt;
+Dit logo wordt gebruikt voor zowel de business kant als bij de kant van de consumenten.
+&lt;br&gt;
+Zowel op de website als op de webstore wordt het logo getoond.
+&lt;br&gt;
+In de winkel zelf heb je minder te maken met het logo maar meer met andere typische aspecten.
+&lt;br&gt;
+Als je bijvoorbeeld een herstelde computer terugkrijgt zal hier een typische blauwe factuur aan vast hangen met hierop alle informatie.
+&lt;br&gt;
+Ze hebben zowel blauwe (klantenfacturen) als roze(leveranciersfacturen) die de administratie voor hun veel handiger maakt.
+&lt;br&gt;
+Als je met een probleem of vraag zou zitten en er een email wordt teruggekregen van één van de collega’s
+&lt;br&gt;
+dan is deze automatisch uitgerust met de naam van de medewerker, zijn functie en de gegevens van Van Roey.
+&lt;br&gt;
+Ook de gekke reclame van Van Roey kan je onder huisstijl omvatten. Met de grappige boodschappen en de subtiele reclame kan je Van Roey ook herkennen van andere.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wikipedia database</title>
+      <link>http://wout-wynen.github.io/DatabaseUseCase/</link>
+      <pubDate>Fri, 04 Mar 2016 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/DatabaseUseCase/</guid>
+      <description>&lt;p&gt;Mijn UseCase diagramma is gebaseerd op het concept van wikipedia.
+ &lt;br&gt;
+ De SQL code die gebaseerd is op dit UseCaseDiagramma kan u &lt;a href=&#34;https://gitlab.com/wout-wynen/WikipediaSQL&#34;&gt;hier&lt;/a&gt; terug vinden.
+ &lt;br&gt;
+&lt;img src=&#34;../images/UseCase.png&#34; alt=&#34;Image of UseCase&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WORKFLOWS</title>
+      <link>http://wout-wynen.github.io/HugoVerschil/</link>
+      <pubDate>Thu, 29 Oct 2015 13:51:01 +0200</pubDate>
+      
+      <guid>http://wout-wynen.github.io/HugoVerschil/</guid>
+      <description>
+
+&lt;h4 id=&#34;wat-is-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Wat is Hugo?&lt;/h4&gt;
+
+&lt;p&gt;Hugo is een static website engine.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Het kan efficient worden gebruikt en is met wat kennis vrij snel opgebouwd.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;De posts worden in Markdown geschreven en de rest van de site vooral in HTML en CSS.&lt;/p&gt;
+
+&lt;h4 id=&#34;positieve-en-negatieve-kanten:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Positieve en negatieve kanten&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;wat-ik-goed-vond-aan-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Wat ik goed vond aan Hugo:&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;-Posts zijn makkelijk te maken en in markdown geschreven.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-Veel verschillende thema&amp;rsquo;s die uitstekend gemaakt zijn.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-Makkelijk te gebruiken met github (pages) en andere hosting sites.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;wat-ik-minder-goed-vond-aan-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Wat ik minder goed vond aan Hugo:&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;-Om grondige aanpassingen te doen moet je wel wat kennis hebben van HTML en CSS.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-Thema&amp;rsquo;s zijn soms moeilijk te begrijpen.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-Geen hulp, veel zelfstandig uitzoeken.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;mening-over-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Mening over Hugo&lt;/h4&gt;
+
+&lt;p&gt;Hugo is een interessante engine als je blog wil opbouwen. Zelf weet ik niet of ik ook dezelfde zou gekozen hebben maar dit is vooral omdat ik niet echt andere static website engines ken.
+Als je je even in Hugo verdiept kan je vrij veel bijleren en ook wel plezier in het maken van je site ondervinden als je het test.
+Ik vind het niet zo gemakkelijk om er iets in aan te passen maar dit zorgt er wel voor dat het heel belonend is als je wel iets kan aanpassen waar je al een tijdje achter zat te zoeken.
+Hierin kan je gewoon met een interface een post toevoegen en hoef je je geen zorgen te maken over bepaalde dingen zoals opmaak.
+Wordpress is dus ook makkelijker te gebruiken dan Hugo maar dit wil ook zeggen dat je dan niet zo uitgebreid je site kan aanpassen.&lt;/p&gt;
+
+&lt;h4 id=&#34;structuur-van-hugo:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Structuur van Hugo&lt;/h4&gt;
+
+&lt;p&gt;De structuur van Hugo vind ik persoonlijk soms ingewikkeld maar na veel gebruiken werd dit duidelijker voor mij.
+Als je een thema gebruikt en dit dan ook kloont van Gitlab, staat dit in een aparte map bij themes maar dit is makkelijk over te zetten naar de standaard mapjes van Hugo.
+Dan heb je ook nog een mapje content waar al je posts staan.
+Ook de map archetypes en de mappen layouts en static zijn erg belangrijk voor je website.
+In de map layouts vind je je default thema waarop je site is gebaseerd. Dit is aanpasbaar maar ik heb dit uitgetest en vind dit nogal moeilijk om te doen.
+Dan in de map static staan je afbeeldingen en hier vind je ook al de Javascript en CSS bestanden. Hier heb ik niets aan veranderd.
+Dan als laatste heb je je public map. Hier word eigenlijk je website in gegenereerd om deze online te plaatsen.
+Wat ik wel heb gemerkt aan de map is dat hier vaak fouten in kunnen komen als je bv overschakelt van twee thema&amp;rsquo;s, daarom is dit ook vrij belangrijk om deze te wissen en om een nieuwe public map te laten genereren.&lt;/p&gt;
+
+&lt;h4 id=&#34;conclusie:35c366324e20281c72d1a9a9a9a12d2b&#34;&gt;Conclusie&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hugo is een goeie keuze als je veel wilt bijleren over hoe je een blog moet maken en er graag wel wat tijd aan besteed om het aan te passen.&lt;/li&gt;
+&lt;li&gt;De thema&amp;rsquo;s zijn leuk maar soms ook wel moeilijk om volledig te begrijpen.&lt;/li&gt;
+&lt;li&gt;Perfect voor onze GIP opdracht omdat je er veel in moet gaan zoeken en zelfstandig moet uittesten.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
